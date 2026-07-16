@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samikshya Giri | Portfolio</title>
+  <link rel="stylesheet" href="css/index1.css">
   <style>html { scroll-behavior: smooth; }</style>
 </head>
 <body>
 
+<!-- NAV -->
 <nav>
-  <img src="images/logo.png" alt="Logo" width="80" height="80">
-  <strong style="margin-left: 20px;">Samikshya Giri</strong>
+  <div class="nav-brand">
+    <img src="images/logo.png" alt="Logo" width="50" height="50">
+    <strong>Samikshya Giri</strong>
+  </div>
   <ul>
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
@@ -22,389 +26,431 @@
   </ul>
 </nav>
 
+<!-- SEARCH ROW -->
+<div class="search-row">
+  <div class="search-form" role="search">
+    <input type="search" class="search-input" placeholder="Search...">
+    <button type="button" class="search-btn" aria-label="Search">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+  </div>
+</div>
+
 <main>
 
+  <!-- HOME -->
+  <section id="home">
+    <div class="home-container">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Kathmandu, Nepal · BIT Student · AWS Cloud</p>
+        <h1>Samikshya <em>Giri</em></h1>
+        <p class="hero-tagline">Aspiring AI/ML Engineer with a foundation in systems programming, cloud infrastructure, and data-driven problem solving. Building toward a future in intelligent systems.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/me.png" alt="Samikshya Giri" width="260" height="330">
+      </div>
+    </div>
+  </section>
 
-<!-- HOME -->
-<section id="home">
-  <header>
-    <p>Kathmandu, Nepal · BIT Student · AWS Cloud</p>
-    <h1>Samikshya <em>Giri</em></h1>
-    <p>Aspiring AI/ML Engineer with a foundation in systems programming, cloud infrastructure, and data-driven problem solving. Building toward a future in intelligent systems.</p>
-    <a href="#projects">View My Work</a>
-    <a href="#contact">Get In Touch</a>
-  </header>
-  <img src="images/me.png" alt="Samikshya Giri" width="150" height="190" style="object-fit: cover;">
-</section>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-container">
+      <h2>About Me</h2>
+      <h3>Turning Systems Knowledge Into Real Solutions</h3>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I am <strong>Samikshya Giri</strong>, a 5th semester Bachelor of Information Technology student at <strong>International American University (IAU), LA</strong>. My academic focus spans cloud computing, cybersecurity, networking, and game development.</p>
+          <p>I hold <strong>6 industry certifications</strong> from AWS Academy and Cisco, covering cloud, cybersecurity, IoT, and networking. Starting July, I am also enrolled in a <strong>Data Science in AI/ML</strong> course to deepen my skills in machine learning, NLP, and intelligent systems.</p>
+          <p>My long-term goal is to build and deploy intelligent systems at scale, with a particular interest in <strong>MLOps, NLP, and production AI pipelines</strong>.</p>
+        </div>
+      </div>
+      <div class="about-stats">
+        <dl>
+          <div class="stat">
+            <dt>Certifications</dt>
+            <dd>6</dd>
+          </div>
+          <div class="stat">
+            <dt>Projects</dt>
+            <dd>5</dd>
+          </div>
+          <div class="stat">
+            <dt>Core Languages</dt>
+            <dd>C / C++ / Python / Java</dd>
+          </div>
+          <div class="stat">
+            <dt>Career Direction</dt>
+            <dd>AI / ML</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
 
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="education-container">
+      <h2>Education</h2>
+      <h3>Academic Background</h3>
 
-<!-- ABOUT -->
-<section id="about">
-  <h2><b>About</b></h2>
-  <h3>Turning Systems Knowledge Into Real Solutions</h3>
+      <article>
+        <h4>Bachelor of Information Technology (BIT), 5th Semester</h4>
+        <dl>
+          <dt>Institution</dt>
+          <dd>International American University (IAU), LA</dd>
+          <dt>Year</dt>
+          <dd>2024 - Present</dd>
+          <dt>Description</dt>
+          <dd>Coursework spans core computer science disciplines with emphasis on systems programming, cloud platforms, game development, and software engineering foundations.</dd>
+        </dl>
+      </article>
 
-  <p>I am <strong>Samikshya Giri</strong>, a 5th semester Bachelor of Information Technology student at <strong>International American University (IAU), LA</strong>. My academic focus spans cloud computing, cybersecurity, networking, and game development.</p>
-  <p>I hold <strong>6 industry certifications</strong> from AWS Academy and Cisco, covering cloud, cybersecurity, IoT, and networking. Starting July, I am also enrolled in a <strong>Data Science in AI/ML</strong> course to deepen my skills in machine learning, NLP, and intelligent systems.</p>
-  <p>My long-term goal is to build and deploy intelligent systems at scale, with a particular interest in <strong>MLOps, NLP, and production AI pipelines</strong>.</p>
+      <article>
+        <h4>Higher Secondary Education (+2), Science</h4>
+        <dl>
+          <dt>Institution</dt>
+          <dd>KIST College &amp; Secondary School, Kathmandu</dd>
+          <dt>Status</dt>
+          <dd>Completed</dd>
+        </dl>
+      </article>
 
-  <dl>
-    <dt><strong>Certifications</strong></dt>
-    <dd>6</dd>
-    <dt><strong>Projects</strong></dt>
-    <dd>5</dd>
-    <dt><strong>Core Languages</strong></dt>
-    <dd>C / C++ / Python / Java</dd>
-    <dt><strong>Career Direction</strong></dt>
-    <dd>AI / ML</dd>
-  </dl>
-</section>
+      <article>
+        <h4>Secondary Education Examination (SEE)</h4>
+        <dl>
+          <dt>Institution</dt>
+          <dd>Greenland High School, Kathmandu</dd>
+          <dt>Status</dt>
+          <dd>Completed</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
 
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills-container">
+      <h2>Skills</h2>
+      <h3>Technical Toolkit</h3>
+      <div class="skills-grid">
 
-<!-- EDUCATION -->
-<section id="education">
-  <h2><b>Education</b></h2>
-  <h3>Academic Background</h3>
+        <article>
+          <h4>Languages</h4>
+          <ul>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML &amp; CSS</li>
+          </ul>
+        </article>
 
-  <article>
-    <h4>Bachelor of Information Technology (BIT), 5th Semester</h4>
-    <dl>
-      <dt><strong>Institution</strong></dt>
-      <dd>International American University (IAU), LA</dd>
-      <dt><strong>Year</strong></dt>
-      <dd>2024 - Present</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Coursework spans core computer science disciplines with emphasis on systems programming, cloud platforms, game development, and software engineering foundations.</dd>
-      <dt><strong>Tools</strong></dt>
-      <dd>
+        <article>
+          <h4>Systems &amp; OS</h4>
+          <ul>
+            <li>Linux (Ubuntu)</li>
+            <li>VirtualBox</li>
+            <li>Bash Scripting</li>
+            <li>UFW Firewall</li>
+            <li>System Log Analysis</li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Cloud &amp; Networking</h4>
+          <ul>
+            <li>Amazon S3</li>
+            <li>IAM &amp; Security</li>
+            <li>Cisco Networking</li>
+            <li>IoT Fundamentals</li>
+            <li>Cyber Threat Management</li>
+          </ul>
+        </article>
+
+        <article>
+          <h4>Tools &amp; Platforms</h4>
+          <ul>
+            <li>Figma</li>
+            <li>Unity</li>
+            <li>WordPress</li>
+            <li>Canva</li>
+            <li>AWS Academy</li>
+            <li>Cisco NetAcad</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <div class="soft-skills">
+        <h3>People &amp; Workplace Skills</h3>
         <ul>
-          <li>Figma</li>
-          <li>Unity</li>
-          <li>WordPress</li>
-          <li>Canva</li>
-          <li>Linux Administration</li>
-          <li>Cloud Computing (AWS)</li>
+          <li>Communication</li>
+          <li>Teamwork</li>
+          <li>Leadership</li>
+          <li>Problem Solving</li>
+          <li>Adaptability</li>
+          <li>Time Management</li>
+          <li>Critical Thinking</li>
+          <li>Attention to Detail</li>
         </ul>
-      </dd>
-    </dl>
-  </article>
+      </div>
+    </div>
+  </section>
 
-  <article>
-    <h4>Higher Secondary Education (+2), Science</h4>
-    <dl>
-      <dt><strong>Institution</strong></dt>
-      <dd>KIST College &amp; Secondary School, Kathmandu</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Completed</dd>
-    </dl>
-  </article>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-container">
+      <h2>Projects</h2>
+      <h3>Academic &amp; Technical Work</h3>
+      <div class="projects-grid">
 
-  <article>
-    <h4>Secondary Education Examination (SEE)</h4>
-    <dl>
-      <dt><strong>Institution</strong></dt>
-      <dd>Greenland High School, Kathmandu</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Completed</dd>
-    </dl>
-  </article>
-</section>
+        <article>
+          <h4>Figma</h4>
+          <dl>
+            <dt>Category</dt>
+            <dd>BIT Workshop</dd>
+            <dt>Description</dt>
+            <dd>UI/UX design workshop conducted under the BIT curriculum.</dd>
+            <dt>Tags</dt>
+            <dd>
+              <ul>
+                <li>Figma</li>
+                <li>UI/UX</li>
+                <li>Design</li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
 
+        <article>
+          <h4>Unity Game Development</h4>
+          <dl>
+            <dt>Category</dt>
+            <dd>BIT Workshop</dd>
+            <dt>Description</dt>
+            <dd>Game development workshop under BIT curriculum. Built a fully playable game.</dd>
+            <dt>Tags</dt>
+            <dd>
+              <ul>
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Game Design</li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
 
-<!-- SKILLS -->
-<section id="skills">
-  <h2><b>Skills</b></h2>
-  <h3>Technical Toolkit</h3>
+        <article>
+          <h4>WordPress</h4>
+          <dl>
+            <dt>Category</dt>
+            <dd>BIT Workshop</dd>
+            <dt>Description</dt>
+            <dd>Website creation workshop conducted under the BIT curriculum.</dd>
+            <dt>Tags</dt>
+            <dd>
+              <ul>
+                <li>WordPress</li>
+                <li>Web Design</li>
+                <li>CMS</li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>Languages</h4>
-    <ul>
-      <li>C</li>
-      <li>C++</li>
-      <li>Python</li>
-      <li>Java</li>
-      <li>HTML &amp; CSS</li>
-    </ul>
-  </article>
+        <article>
+          <h4>Canva</h4>
+          <dl>
+            <dt>Category</dt>
+            <dd>BIT Workshop</dd>
+            <dt>Description</dt>
+            <dd>Graphic design workshop conducted under the BIT curriculum.</dd>
+            <dt>Tags</dt>
+            <dd>
+              <ul>
+                <li>Canva</li>
+                <li>Graphic Design</li>
+                <li>Visuals</li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>Systems &amp; OS</h4>
-    <ul>
-      <li>Linux (Ubuntu)</li>
-      <li>VirtualBox</li>
-      <li>Bash Scripting</li>
-      <li>UFW Firewall</li>
-      <li>System Log Analysis</li>
-    </ul>
-  </article>
+        <article>
+          <h4>Static Website Hosting on Amazon S3</h4>
+          <dl>
+            <dt>Category</dt>
+            <dd>AWS Practical</dd>
+            <dt>Description</dt>
+            <dd>Configured an S3 bucket with public access policies, enabled static website hosting, and deployed a live portfolio site.</dd>
+            <dt>Tags</dt>
+            <dd>
+              <ul>
+                <li>AWS S3</li>
+                <li>Bucket Policy</li>
+                <li>Cloud Hosting</li>
+              </ul>
+            </dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>Cloud &amp; Networking</h4>
-    <ul>
-      <li>Amazon S3</li>
-      <li>IAM &amp; Security</li>
-      <li>Cisco Networking</li>
-      <li>IoT Fundamentals</li>
-      <li>Cyber Threat Management</li>
-    </ul>
-  </article>
+      </div>
+    </div>
+  </section>
 
-  <article>
-    <h4>Tools &amp; Platforms</h4>
-    <ul>
-      <li>Figma</li>
-      <li>Unity</li>
-      <li>WordPress</li>
-      <li>Canva</li>
-      <li>AWS Academy</li>
-      <li>Cisco NetAcad</li>
-    </ul>
-  </article>
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="certifications-container">
+      <h2>Certifications</h2>
+      <h3>Industry Certifications</h3>
+      <div class="certs-grid">
 
-  <h3>People &amp; Workplace Skills</h3>
-  <ul>
-    <li>Communication</li>
-    <li>Teamwork</li>
-    <li>Leadership</li>
-    <li>Problem Solving</li>
-    <li>Adaptability</li>
-    <li>Time Management</li>
-    <li>Critical Thinking</li>
-    <li>Attention to Detail</li>
-  </ul>
-</section>
+        <article>
+          <h4>Cloud Foundations</h4>
+          <dl>
+            <dt>Provider</dt>
+            <dd>AWS Academy</dd>
+            <dt>Description</dt>
+            <dd>Core cloud concepts, AWS global infrastructure, IAM, compute, storage, and networking fundamentals.</dd>
+            <dt>Status</dt>
+            <dd>Earned</dd>
+          </dl>
+        </article>
 
+        <article>
+          <h4>Cloud Security Foundations</h4>
+          <dl>
+            <dt>Provider</dt>
+            <dd>AWS Academy</dd>
+            <dt>Description</dt>
+            <dd>AWS security best practices, identity management, encryption, and compliance frameworks.</dd>
+            <dt>Status</dt>
+            <dd>Earned</dd>
+          </dl>
+        </article>
 
-<!-- PROJECTS -->
-<section id="projects">
-  <h2><b>Projects</b></h2>
-  <h3>Academic &amp; Technical Work</h3>
+        <article>
+          <h4>Introduction to Cybersecurity</h4>
+          <dl>
+            <dt>Provider</dt>
+            <dd>Cisco NetAcad</dd>
+            <dt>Description</dt>
+            <dd>Cyber threat landscape, attack types, network vulnerabilities, and foundational defensive practices.</dd>
+            <dt>Status</dt>
+            <dd>Earned</dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>Figma</h4>
-    <dl>
-      <dt><strong>Category</strong></dt>
-      <dd>BIT Workshop</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>UI/UX design workshop conducted under the BIT curriculum.</dd>
-      <dt><strong>Tags</strong></dt>
-      <dd>
-        <ul>
-          <li>Figma</li>
-          <li>UI/UX</li>
-          <li>Design</li>
-        </ul>
-      </dd>
-    </dl>
-  </article>
+        <article>
+          <h4>Cyber Threat Management</h4>
+          <dl>
+            <dt>Provider</dt>
+            <dd>Cisco NetAcad</dd>
+            <dt>Description</dt>
+            <dd>Threat intelligence, risk management, incident response frameworks, and security operations fundamentals.</dd>
+            <dt>Status</dt>
+            <dd>Earned</dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>Unity Game Development</h4>
-    <dl>
-      <dt><strong>Category</strong></dt>
-      <dd>BIT Workshop</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Game development workshop under BIT curriculum. Built a fully playable game.</dd>
-      <dt><strong>Tags</strong></dt>
-      <dd>
-        <ul>
-          <li>Unity</li>
-          <li>C#</li>
-          <li>Game Design</li>
-        </ul>
-      </dd>
-    </dl>
-  </article>
+        <article>
+          <h4>Introduction to IoT</h4>
+          <dl>
+            <dt>Provider</dt>
+            <dd>Cisco NetAcad</dd>
+            <dt>Description</dt>
+            <dd>Internet of Things concepts, connected device architecture, sensors, and IoT security considerations.</dd>
+            <dt>Status</dt>
+            <dd>Earned</dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>WordPress</h4>
-    <dl>
-      <dt><strong>Category</strong></dt>
-      <dd>BIT Workshop</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Website creation workshop conducted under the BIT curriculum.</dd>
-      <dt><strong>Tags</strong></dt>
-      <dd>
-        <ul>
-          <li>WordPress</li>
-          <li>Web Design</li>
-          <li>CMS</li>
-        </ul>
-      </dd>
-    </dl>
-  </article>
+        <article>
+          <h4>Networking Basics</h4>
+          <dl>
+            <dt>Provider</dt>
+            <dd>Cisco NetAcad</dd>
+            <dt>Description</dt>
+            <dd>Network types, IP addressing, protocols, switches, routers, and foundational networking infrastructure concepts.</dd>
+            <dt>Status</dt>
+            <dd>Earned</dd>
+          </dl>
+        </article>
 
-  <article>
-    <h4>Canva</h4>
-    <dl>
-      <dt><strong>Category</strong></dt>
-      <dd>BIT Workshop</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Graphic design workshop conducted under the BIT curriculum.</dd>
-      <dt><strong>Tags</strong></dt>
-      <dd>
-        <ul>
-          <li>Canva</li>
-          <li>Graphic Design</li>
-          <li>Visuals</li>
-        </ul>
-      </dd>
-    </dl>
-  </article>
+      </div>
 
-  <article>
-    <h4>Static Website Hosting on Amazon S3</h4>
-    <dl>
-      <dt><strong>Category</strong></dt>
-      <dd>AWS Practical</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Configured an S3 bucket with public access policies, enabled static website hosting, and deployed a live portfolio site.</dd>
-      <dt><strong>Tags</strong></dt>
-      <dd>
-        <ul>
-          <li>AWS S3</li>
-          <li>Bucket Policy</li>
-          <li>Cloud Hosting</li>
-        </ul>
-      </dd>
-    </dl>
-  </article>
-</section>
+      <div class="additional-course">
+        <h3>Additional Course</h3>
+        <article>
+          <h4>Data Science in AI/ML</h4>
+          <dl>
+            <dt>Start Date</dt>
+            <dd>July 2025</dd>
+            <dt>Description</dt>
+            <dd>Covers machine learning, NLP, LLMs, RAG pipelines, agentic AI, Kubeflow, and KServe.</dd>
+          </dl>
+        </article>
+      </div>
+    </div>
+  </section>
 
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-container">
+      <h2>Contact</h2>
+      <h3>Open to internships, collaborations, and conversations about AI and ML.</h3>
+      <div class="contact-grid">
 
-<!-- CERTIFICATIONS -->
-<section id="certifications">
-  <h2><b>Certifications</b></h2>
-  <h3>Industry Certifications</h3>
+        <div class="contact-info">
+          <dl>
+            <dt>Email</dt>
+            <dd><a href="mailto:samikshyagiri400@gmail.com">samikshyagiri400@gmail.com</a></dd>
+            <dt>LinkedIn</dt>
+            <dd><a href="https://www.linkedin.com/in/samikshya-giri-84b93a408" target="_blank" rel="noopener">linkedin.com/in/samikshya-giri-84b93a408</a></dd>
+            <dt>Location</dt>
+            <dd>Kathmandu, Nepal</dd>
+          </dl>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/facebook.png" alt="Facebook" width="30" height="30"></a>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener"><img src="images/linkedin.png" alt="LinkedIn" width="30" height="30"></a>
+            <a href="https://mail.google.com" target="_blank" rel="noopener"><img src="images/mail.png" alt="Mail" width="30" height="30"></a>
+            <a href="https://web.whatsapp.com" target="_blank" rel="noopener"><img src="images/whatsapp.png" alt="WhatsApp" width="30" height="30"></a>
+          </div>
+        </div>
 
-  <article>
-    <h4><strong>Cloud Foundations</strong></h4>
-    <dl>
-      <dt><strong>Provider</strong></dt>
-      <dd><strong>AWS Academy</strong></dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Core cloud concepts, AWS global infrastructure, IAM, compute, storage, and networking fundamentals.</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Earned</dd>
-    </dl>
-  </article>
+        <div class="contact-form">
+          <form action="#" method="post">
+            <fieldset>
+              <legend>Send a Message</legend>
+              <p>
+                <label for="fullname">Full Name</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+              </p>
+              <p>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+              </p>
+              <p>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+              </p>
+              <p>
+                <button type="submit">Submit Message</button>
+              </p>
+            </fieldset>
+          </form>
+        </div>
 
-  <article>
-    <h4><strong>Cloud Security Foundations</strong></h4>
-    <dl>
-      <dt><strong>Provider</strong></dt>
-      <dd><strong>AWS Academy</strong></dd>
-      <dt><strong>Description</strong></dt>
-      <dd>AWS security best practices, identity management, encryption, and compliance frameworks.</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Earned</dd>
-    </dl>
-  </article>
-
-  <article>
-    <h4><strong>Introduction to Cybersecurity</strong></h4>
-    <dl>
-      <dt><strong>Provider</strong></dt>
-      <dd><strong>Cisco NetAcad</strong></dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Cyber threat landscape, attack types, network vulnerabilities, and foundational defensive practices.</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Earned</dd>
-    </dl>
-  </article>
-
-  <article>
-    <h4><strong>Cyber Threat Management</strong></h4>
-    <dl>
-      <dt><strong>Provider</strong></dt>
-      <dd><strong>Cisco NetAcad</strong></dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Threat intelligence, risk management, incident response frameworks, and security operations fundamentals.</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Earned</dd>
-    </dl>
-  </article>
-
-  <article>
-    <h4><strong>Introduction to IoT</strong></h4>
-    <dl>
-      <dt><strong>Provider</strong></dt>
-      <dd><strong>Cisco NetAcad</strong></dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Internet of Things concepts, connected device architecture, sensors, and IoT security considerations.</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Earned</dd>
-    </dl>
-  </article>
-
-  <article>
-    <h4><strong>Networking Basics</strong></h4>
-    <dl>
-      <dt><strong>Provider</strong></dt>
-      <dd><strong>Cisco NetAcad</strong></dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Network types, IP addressing, protocols, switches, routers, and foundational networking infrastructure concepts.</dd>
-      <dt><strong>Status</strong></dt>
-      <dd>Earned</dd>
-    </dl>
-  </article>
-
-  <h3>Additional Course</h3>
-
-  <article>
-    <h4>Data Science in AI/ML</h4>
-    <dl>
-      <dt><strong>Start Date</strong></dt>
-      <dd>July 2025</dd>
-      <dt><strong>Description</strong></dt>
-      <dd>Covers machine learning, NLP, LLMs, RAG pipelines, agentic AI, Kubeflow, and KServe.</dd>
-    </dl>
-  </article>
-</section>
-
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2><b>Contact</b></h2>
-  <h3>Open to internships, collaborations, and conversations about AI and ML.</h3>
-
-  <dl>
-    <dt><strong>Email</strong></dt>
-    <dd><a href="mailto:samikshyagiri400@gmail.com">samikshyagiri400@gmail.com</a></dd>
-    <dt><strong>LinkedIn</strong></dt>
-    <dd><a href="https://www.linkedin.com/in/samikshya-giri-84b93a408" target="_blank" rel="noopener">linkedin.com/in/samikshya-giri-84b93a408</a></dd>
-    <dt><strong>Location</strong></dt>
-    <dd>Kathmandu, Nepal</dd>
-  </dl>
-
-  <p>
-    <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/facebook.png" alt="Facebook" width="30" height="30"></a>
-    <a href="https://www.linkedin.com" target="_blank" rel="noopener"><img src="images/linkedin.png" alt="LinkedIn" width="30" height="30"></a>
-    <a href="https://mail.google.com" target="_blank" rel="noopener"><img src="images/mail.png" alt="Mail" width="30" height="30"></a>
-    <a href="https://web.whatsapp.com" target="_blank" rel="noopener"><img src="images/whatsapp.png" alt="WhatsApp" width="30" height="30"></a>
-  </p>
-
-  <form action="#" method="post">
-    <fieldset>
-      <legend>Send a Message</legend>
-      <p>
-        <label for="fullname">Full Name</label><br>
-        <input type="text" id="fullname" name="fullname" size="50" placeholder="Enter your full name" required>
-      </p>
-      <p>
-        <label for="email">Email</label><br>
-        <input type="email" id="email" name="email" size="50" placeholder="Enter your email address" required>
-      </p>
-      <p>
-        <label for="message">Message</label><br>
-        <textarea id="message" name="message" cols="50" rows="6" placeholder="Write your message here..." required></textarea>
-      </p>
-      <p>
-        <button type="submit">Submit Message</button>
-      </p>
-    </fieldset>
-  </form>
-</section>
-
+      </div>
+    </div>
+  </section>
 
 </main>
 
